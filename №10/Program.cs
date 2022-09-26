@@ -6,11 +6,11 @@
             if (num > 99 && num < 1000) 
             { 
             int two = num / 10 % 10;
-            Console.WriteLine($"Вторая цифра вашего число: {two}");
+            Console.WriteLine($"Вторая цифра числа: {two}");
             }
             else
             {
-                Console.WriteLine("Неправльная размерность числа");
+                Console.WriteLine("Неправльная размерность");
             }
 
             BeautuLine();
