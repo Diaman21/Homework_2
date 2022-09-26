@@ -1,17 +1,11 @@
-﻿        public void task_10()
-        {
-            Console.WriteLine("ЗАДАЧА №10");
-            Console.WriteLine("Введите трехзначное число: ");
-            int num = Input();
-            if (num > 99 && num < 1000) 
-            { 
-            int two = num / 10 % 10;
-            Console.WriteLine($"Вторая цифра числа: {two}");
-            }
-            else
-            {
-                Console.WriteLine("Неправльная размерность");
-            }
+﻿// Напишите программу, которая принимает на ввод трёхзначное число и на вывод показывает вторую цифру этого числа 
 
-            BeautuLine();
-        }
+Console.Clear();
+Console.Write("Введите трехзначное число: ");
+int a = int.Parse(Console.ReadLine()!);
+if ((a >= 999) || (a <= 99))
+{    
+    Console.WriteLine("Обнаружена попытка обмануть систему");
+}
+else
+    Console.WriteLine($"Вторая цифра числа {a} является {a / 10 % 10}");
