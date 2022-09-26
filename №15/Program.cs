@@ -11,11 +11,11 @@
             }
             else if (num == 6 || num == 7)
             {
-                Console.WriteLine($"{DayWeek(num)}! Ура! Это выходной день!");
+                Console.WriteLine($"{DayWeek(num)}! Это выходной день!");
             }
             else
             {
-                Console.WriteLine("Введите корректное значение от 1 до 7!");
+                Console.WriteLine("Введите значение от 1 до 7!");
             }
             BeautuLine();
         }
